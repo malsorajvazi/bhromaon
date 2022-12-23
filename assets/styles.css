@@ -294,9 +294,7 @@ input::placeholder {
   height: 731px;
   width: 100%;
   align-items: center;
-  justify-content: center;
   box-sizing: border-box;
-  flex-wrap: wrap;
 
 }
 
@@ -311,6 +309,7 @@ input::placeholder {
   font-family: "Aleo" serif;
   font-weight: 400;
   font-size: 36px;
+  margin-top: 75px;
 }
 
 .cover6-text {
