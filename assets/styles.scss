@@ -54,6 +54,17 @@ body {
     align-items: center;
     padding: 2px;
 }
+
+
+
+input::placeholder {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+}
+
 .search-form input:focus {
     outline: none;
 }
@@ -280,7 +291,7 @@ body {
     background-image: url('images/cover5.png');
     height: 700px;
     width: 100%;
-    font-family: 'Josefin' sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     padding: 0 329px 99px 0;
     box-sizing: border-box;
 }
@@ -331,7 +342,7 @@ body {
 }
 
 .cover7 h2 {
-    font-family: 'Josefin' sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
     font-size: 24px;
 }
@@ -339,7 +350,7 @@ body {
 .cover7 h3 {
     font-size: 16px;
     font-weight: 400;
-    font-family: 'Josefin' sans-serif ;
+    font-family: 'Josefin Sans', sans-serif ;
 }
 
 .cover7-socialicons {
