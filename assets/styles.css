@@ -1,0 +1,355 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header-container {
+  background-image: url("images/header-background.png");
+  width: 100%;
+  height: 820px;
+}
+
+.header-container--text {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+}
+
+.header-container--text h1 {
+  font-weight: 700;
+  font-size: 48px;
+  padding: 0;
+  margin: 0 0 11px 0;
+}
+
+.header-container--text h2 {
+  font-weight: 400;
+  font-size: 22px;
+  padding: 0;
+  margin: 0 0 48px 0;
+  letter-spacing: 6.82px;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 107px;
+}
+
+.search-form input {
+  text-align: center;
+  width: 503px;
+  height: 63px;
+  align-items: center;
+  padding: 2px;
+}
+
+.search-form input:focus {
+  outline: none;
+}
+
+.search-form input:focus::placeholder {
+  color: transparent;
+}
+
+.search-form-button {
+  cursor: pointer;
+  border: 1px solid white;
+  justify-content: center;
+  color: white;
+  font-family: "Aleo", serif;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: #5474FD;
+  align-items: center;
+  width: 153px;
+  margin: 1px;
+}
+
+.search-form-button:hover {
+  color: #5474FD;
+  background-color: white;
+}
+
+.search-form-button img {
+  max-width: 24px;
+  margin-left: 15px;
+}
+
+.scroll-down-button {
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  row-gap: 10px;
+}
+
+.navbar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 0 301px 0 334px;
+  background-color: #5474FD;
+}
+
+.navbar-logo {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.navbar-logo:hover {
+  color: aqua;
+}
+
+.navbar-menu a {
+  font-family: "Aleo", serif;
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 36px;
+}
+
+.navbar-menu a:hover {
+  color: aqua;
+}
+
+.cover2 {
+  background-image: url("images/whychooseus.png");
+  display: flex;
+  align-items: center;
+  color: white;
+  box-sizing: border-box;
+  height: 685px;
+  justify-content: center;
+}
+
+.cover2-text {
+  margin-right: 110px;
+  width: 512px;
+  margin-bottom: 45px;
+}
+
+.cover2-text h2 {
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.cover2-text p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: lighter;
+  letter-spacing: 1.6px;
+}
+
+.cover2-images {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  row-gap: 10px;
+}
+
+.cover2-images--image1 {
+  max-width: 350px;
+  margin-left: 110px;
+}
+
+.cover2-images--image2 {
+  margin-left: 200px;
+  max-width: 350px;
+}
+
+.cover2-button {
+  color: white;
+  background-color: #5474FD;
+  padding: 21px;
+  border: 1px solid #5474FD;
+  cursor: pointer;
+}
+
+.cover2-button:hover {
+  color: #5474FD;
+  background-color: white;
+}
+
+.cover3 {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  background-color: #333333;
+  height: 340px;
+  width: 100%;
+  align-items: center;
+}
+
+.cover3-items {
+  display: flex;
+  flex-direction: column;
+  column-gap: 19px;
+  align-items: center;
+  color: white;
+  font-family: "Aleo" serif;
+  font-weight: 400;
+  size: 36px;
+}
+
+.cover4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-image: url("images/cover4.png");
+  height: 700px;
+  width: 100%;
+  font-family: "Josefin" sans-serif;
+  padding: 0 0 99px 328px;
+  box-sizing: border-box;
+}
+
+.spain-box {
+  background: #232323;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  width: 508px;
+  height: 374px;
+  color: white;
+  padding: 49px 32px;
+}
+
+.spain-box h4, h3 {
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.spain-box p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  margin-bottom: 46px;
+  line-height: 26px;
+  font-weight: lighter;
+}
+
+.spain-box--button {
+  color: white;
+  background-color: #5474FD;
+  font-size: 16px;
+  font-family: "Aleo" serif;
+  width: 228px;
+  height: 63px;
+  border: solid 1px #5474FD;
+  cursor: pointer;
+}
+
+.spain-box--button:hover {
+  color: #5474FD;
+  background-color: white;
+}
+
+.cover5 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-image: url("images/cover5.png");
+  height: 700px;
+  width: 100%;
+  font-family: "Josefin" sans-serif;
+  padding: 0 329px 99px 0;
+  box-sizing: border-box;
+}
+
+.cover6 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/cover6.png");
+  height: 731px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.cover6-content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 93px;
+  margin-bottom: 199px;
+}
+
+.cover6 h2 {
+  font-family: "Aleo" serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.cover6-text {
+  padding-left: 62px;
+  padding-right: 62px;
+  background-color: #333333;
+}
+
+.cover7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #232323;
+  height: 271px;
+  width: 100%;
+  line-height: 0;
+  padding: 122px 0 46px 0;
+}
+
+.cover7 h2 {
+  font-family: "Josefin" sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.cover7 h3 {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Josefin" sans-serif;
+}
+
+.cover7-socialicons {
+  margin-top: 16px;
+}
+
+.cover7-socialicons a {
+  margin: 0px 7.5px 0 7.5px;
+  cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease;
+}
+
+.cover7-socialicons svg:hover {
+  transform: scale(2);
+}
+
+/*# sourceMappingURL=styles.css.map */
+
+/*# sourceMappingURL=styles.css.map */
